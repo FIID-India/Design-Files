@@ -62,6 +62,16 @@ h3 {
     line-height: 130%;
 }
 
+.quote {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 450px;
+    line-height: 160%;
+    color: $base-color;
+}
+
 // SCROLL BAR -----------------------------------------------------------------------------------------------
 
 ::-webkit-scrollbar {
@@ -92,4 +102,11 @@ footer {
     margin-bottom: 0;
     background: #334155;
     color: white;
+}
+
+
+.go-back{
+    margin-bottom: 3rem;
+    font-size: 14px;
+    text-decoration: none;
 }
