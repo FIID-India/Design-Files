@@ -128,6 +128,11 @@ body {
 }
 #programmes-overview img {
   border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#programmes-overview .ratio {
+  margin-bottom: 2rem;
 }
 #programmes-overview .heading {
   text-align: center;

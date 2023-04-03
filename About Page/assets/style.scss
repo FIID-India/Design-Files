@@ -1,9 +1,8 @@
 @import "../../Assets/base";
 
-body{
+body {
     padding-top: 5rem;
 }
-
 
 #about {
     @media only screen and (min-width: 992px) {
@@ -13,11 +12,14 @@ body{
     h3 {
         margin-bottom: 0.5rem;
     }
-    h4{
+    h4 {
         margin-bottom: 1rem;
     }
     img {
         border-radius: 30px;
+        object-fit: cover;
+    }
+    .ratio {
         margin-bottom: 2rem;
     }
     p {

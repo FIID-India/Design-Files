@@ -123,6 +123,10 @@ footer {
 }
 #objectives img {
   border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#objectives .ratio {
   margin-bottom: 2rem;
 }
 #objectives ul {
