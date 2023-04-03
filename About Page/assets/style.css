@@ -5,7 +5,7 @@
 
 .navbar {
   background-color: #f8fafc !important;
-  padding: 2px 0;
+  padding: 2px 0 2px 0 !important;
 }
 .navbar .navbar-toggler {
   border: none;
@@ -46,12 +46,25 @@ a {
   background-color: #1d4ed8;
 }
 
-h3 {
+h3,
+.heading {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   line-height: 130%;
+}
+@media only screen and (max-width: 380px) {
+  h3,
+  .heading {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  h3,
+  .heading {
+    font-size: 35px;
+  }
 }
 
 .quote {
