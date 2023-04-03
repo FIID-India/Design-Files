@@ -1,0 +1,14 @@
+@import "../../Assets/base";
+
+#gallery {
+    padding: 100px 0 50px 0;
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .text-group {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+}
