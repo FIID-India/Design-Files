@@ -10,7 +10,7 @@ $hero-background: #f8fafc;
 // NAVIGATION BAR -----------------------------------------------------------------------------------------------
 .navbar {
     background-color: $hero-background !important;
-    padding: 2px 0;
+    padding: 2px 0 2px 0 !important;
     .navbar-toggler {
         border: none;
     }
@@ -54,12 +54,19 @@ a {
 }
 
 // HEADING -----------------------------------------------------------------------------------------------
-h3 {
+h3,
+.heading {
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 130%;
+    @media only screen and (max-width: 380px) {
+        font-size: 40px;
+    }
+    @media only screen and (max-width: 380px) {
+        font-size: 35px;
+    }
 }
 
 .quote {
@@ -104,8 +111,7 @@ footer {
     color: white;
 }
 
-
-.go-back{
+.go-back {
     margin-bottom: 3rem;
     font-size: 14px;
     text-decoration: none;
