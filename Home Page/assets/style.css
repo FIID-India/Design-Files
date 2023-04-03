@@ -158,9 +158,13 @@ footer {
 #about h3 {
   margin-bottom: 1rem;
 }
+#about .ratio {
+  margin-bottom: 2rem;
+}
 #about img {
   border-radius: 30px;
-  margin-bottom: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #about p {
   font-size: 16px;
@@ -178,9 +182,14 @@ footer {
 }
 #objectives h3 {
   margin-bottom: 1rem;
+  max-width: 500px;
 }
 #objectives img {
   border-radius: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#objectives .ratio {
   margin-bottom: 2rem;
 }
 #objectives p {
@@ -211,9 +220,4 @@ footer {
   width: 300px;
   border-radius: 10px;
   margin-bottom: 1rem;
-}
-@media only screen and (max-width: 380px) {
-  #newsletters .img-group img {
-    width: 100%;
-  }
 }/*# sourceMappingURL=style.css.map */
