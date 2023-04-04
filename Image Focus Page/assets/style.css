@@ -54,16 +54,10 @@ h3,
   font-size: 50px;
   line-height: 130%;
 }
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 420px) {
   h3,
   .heading {
     font-size: 40px;
-  }
-}
-@media only screen and (max-width: 380px) {
-  h3,
-  .heading {
-    font-size: 35px;
   }
 }
 
